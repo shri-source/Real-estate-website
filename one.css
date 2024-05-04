@@ -1,0 +1,164 @@
+header{
+    background-image: url(https://media.istockphoto.com/id/139885445/photo/starry-night.jpg?s=612x612&w=0&k=20&c=r_ztapBFIzBO0KQ3OxlS5nai6HCqG-kbwsuEmVp_E5E=);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    
+}
+body{
+    height: 100%;
+    background-color: #1e1c1a;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    font-family: sans-serif;
+
+}
+.nav h1{
+    margin: 30px;
+    color: aliceblue;
+    margin-left: 50px;
+}
+.nav a{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 35px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.nav input{
+    height: 30px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: orange;
+}
+.main{
+    margin: 100px;
+}
+.main h1{
+    color: white;
+    font-size: 45px;
+}
+.main p{
+    color: aliceblue;
+    margin: 8px;
+}
+.main input{
+    margin-top: 30px;
+    padding: 10px 35px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: transparent;
+    color: aliceblue;
+    font-weight: bold;
+}
+.main0{
+    display: flex;
+}
+.card1{
+    background-color: #1c1b1a;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 300px;
+    height: 390px;
+    padding: 30px;
+    padding-left: 50px;
+    background: transparent;
+    opacity: 8.8;
+    color: aliceblue;
+    font-weight: bold;
+}
+.card1 input{
+    padding: 8px;
+    width: 250px;
+}
+.card1 h2{
+    text-align: center;
+    margin-bottom: 18px;
+}
+.card{
+    margin-top: 50px;
+}
+.two img{
+    width: 240px;
+    margin-top: 30px;
+}
+.two {
+    background-color: #cbd6e0;
+    padding-left: 40px;
+    height: 290px;
+    width: 270px;
+    margin: 50px;
+    border-radius: 30px;
+}
+.two h2{
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-left: 57px;
+    color: orangered;
+}
+.two input{
+    margin-top: 20px;
+    padding: 6px 30px;
+    background-color: orange;
+    color: aliceblue;
+    font-weight: bold;
+}
+.h1 h1{
+    color: orange;
+    text-align: center;
+    margin: 20px;
+}
+.one{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.foot{
+    background-color: #0d2d21;
+    height: 450px;
+    margin-top: 50px;
+}
+.foot h1{
+    padding: 30px;
+    color: aliceblue;
+}
+.foot0{
+    display: flex;
+    margin-left: 200px;
+}
+.foot1{
+    margin-left: 180px;
+}
+.foot1 a{
+    color: #bec6cd;
+    text-decoration: none;
+    list-style-type: none;
+}
+.foot1 li{
+    margin-top: 10px;
+}
+.foot2{
+    color: aliceblue;
+    font-size: 20px;
+}
+.h2 p{
+    text-align: center;
+    color: #bec6cd;
+    font-size: 17px;
+    margin-top: 60px;
+}
+.foot img{
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 7px;
+}
